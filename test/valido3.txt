@@ -1,0 +1,1 @@
+{ Comentario } function suma(a,b:integer):integer; begin suma:=a+b; end;

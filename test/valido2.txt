@@ -1,0 +1,1 @@
+procedure saludar(); begin writeln('Hola'); end;
