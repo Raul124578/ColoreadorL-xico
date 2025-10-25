@@ -32,12 +32,12 @@ public class Main {
             Files.createDirectories(Paths.get(TEST_DIR));
 
             Map<String, String> archivos = Map.of(
-                "valido1.txt", "public class Test { public static void main(String[] args) { int x = 10; if (x > 0) x--; } }",
-                "valido2.txt", "interface Example { void method(); }",
-                "valido3.txt", "/* Comment */ class Calc { int sum(int a, int b) { return a + b; } }",
-                "invalido1.txt", "class Test { int x = 10 @ 5; }", // Invalid operator
-                "invalido2.txt", "class Test { String s = \"unclosed; }", // Unclosed string
-                "invalido3.txt", "class 9Test { int x; }" // Invalid class name
+                "valido1.txt", "var x: integer; begin x := 10; if x > 0 then x := x - 1; end.",
+                "valido2.txt", "procedure saludar(); begin writeln('Hola'); end;",
+                "valido3.txt", "{ Comentario } function suma(a,b:integer):integer; begin suma:=a+b; end;",
+                "invalido1.txt", "var x := 10 @ 5;",
+                "invalido2.txt", "write(\"Hola);",
+                "invalido3.txt", "var 9var: integer;"
             );
 
             for (var entry : archivos.entrySet()) {
