@@ -16,6 +16,7 @@ Para ejecutar el coloreador en tu computadora, sigue estos sencillos pasos:
 2.  **Abrir el archivo:**
     Simplemente ejecuta el archivo desde la terminal `main.java`.
 
+<img width="792" height="136" alt="image" src="https://github.com/user-attachments/assets/cf7df2fa-454d-47d5-9065-5a53f523e36b" />
 
 
 
